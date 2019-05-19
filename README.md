@@ -5,8 +5,7 @@ PARA INICIALIZAR EL PROYECTO INSTALAR YARGS
 - cd primera_entrega_TdeA
 
 - npm install yargs
-ó
- npm install
+
 
 Y SE INSTALARÁN LAS DEPENDENCIAS NECESARIAS
 
