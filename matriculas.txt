@@ -1,0 +1,13 @@
+ 
+------------------------------------------------------------------------------
+        EL ESTUDIANTE CON CEDULA 1234 Y NOMBRE LUIS
+        SE HA INCRITO CURSO DE TECNOLOGÍAS DE INFORMACIÓN, SU ID ES 1, 
+        TIENE UN VALOR DE $ 1000000 COP
+        CON UNA DURACION DE 32 HORAS
+------------------------------------------------------------------------------ 
+------------------------------------------------------------------------------
+        EL ESTUDIANTE CON CEDULA 12345 Y NOMBRE LUISFELIPE
+        SE HA INCRITO CURSO DE GERENCIA DE LA INFORMACIÓN, SU ID ES 2, 
+        TIENE UN VALOR DE $ 1500000 COP
+        CON UNA DURACION DE 24 HORAS
+------------------------------------------------------------------------------
