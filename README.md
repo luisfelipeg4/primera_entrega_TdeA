@@ -2,9 +2,11 @@
 REALIZADO POR LUIS FELIPE GARCIA HERRERA
 
 PARA INICIALIZAR EL PROYECTO INSTALAR YARGS
-npm install yargs
+- cd primera_entrega_TdeA
+
+- npm install yargs
 ó
-npm install
+ npm install
 
 Y SE INSTALARÁN LAS DEPENDENCIAS NECESARIAS
 
