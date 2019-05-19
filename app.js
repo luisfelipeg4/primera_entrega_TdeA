@@ -26,8 +26,7 @@ let informacion = ()=>{
  * Método de válidacion de que exista un curso para generar la prematricula
  * Si encuentra el curso prematricula al estudiante
  */
-let inscripcion = ()=>{
-    let {idCurso, nombre, cedula } = argv
+let inscripcion = (idCurso, nombre, cedula)=>{
     let curso = cursosOfrecidos.find(curso => curso.id==idCurso)
     if (curso!=undefined){
         let text =` 
@@ -39,7 +38,10 @@ let inscripcion = ()=>{
 ------------------------------------------------------------------------------`
         fs.appendFile('matriculas.txt', text, function (err) {
             if (err) throw err;
-            console.log('SE CREO CORRECTAMENTE LA MATRICULA');
+            console.log(`
+------------------------------------------------------------------------------
+            SE CREO CORRECTAMENTE LA MATRICULA
+            ${text}`);
           });
     }else{
         console.log(`
@@ -53,7 +55,13 @@ let inscripcion = ()=>{
 
 // Condicionales para validar la entrada de argv al 
 if (comandos.find(comand => comand=='inscribir')){
-    inscripcion()
+    let {idCurso, nombre, cedula } = argv
+    if (nombre!=true && cedula!=true )
+    {
+        inscripcion(idCurso, nombre, cedula)
+    }else{
+        console.log("FALTAN ARGUMENTOS");
+    }
 }else if (comandos.find(comand => comand=='informacion')){
     informacion()
 }else {

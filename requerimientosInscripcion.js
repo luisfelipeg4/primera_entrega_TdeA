@@ -1,6 +1,7 @@
 
 const requerimientos ={
     idCurso: {
+
         demand: true,
         alias: 'i'
     },
@@ -9,6 +10,7 @@ const requerimientos ={
         alias:'c'
     },
     nombre: {
+        type:String,
         demand: true,
         alias:'n'
     },
